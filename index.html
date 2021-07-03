@@ -1,0 +1,314 @@
+<!-- opening and closing tags -->
+<html>
+	Your html code goes here
+</html>
+
+<!-- paragraph tags -->
+<p>Your paragraph goes here</p>
+
+<!-- heading tags -->
+<h1>This is your top level heading</h1>
+<h2>This is your subheading of h1</h2>
+<h3>This is your subheading of h2</h3>
+<h4>This is your subheading of h3</h4>
+<h5>This is your subheading of h4</h5>
+<h6>This is your subheading of h6</h6>
+
+<!-- websites typically use h1 through h3, sometimes h4 -->
+
+<!-- divs -->
+
+<div>
+	This is a section of the website. A div is a generic section.
+</div>
+
+<div style="width: 100%;">
+	<div style="width: 50%; float: left; border: 1px solid #000;">
+		<p>Here is some stuff on the left.</p>
+	</div>
+	<div style="width: 48%; float: right; border: 1px solid #000;">
+		<p>Here is some stuff on the right.</p>
+	</div>
+</div>
+
+<div style="clear: both;"></div>
+
+<!-- lists -->
+
+<!-- ordered list -->
+
+<ol>
+	<li>list item 1</li>
+	<li>list item 2</li>
+	<li>list item 3</li>
+	<li>list item 4</li>
+</ol>
+
+<!-- unordered list -->
+
+<ul>
+	<li>list item 1</li>
+	<li>list item 2</li>
+	<li>list item 3</li>
+	<li>list item 4</li>
+</ul>
+
+<!-- tables -->
+<table>
+	<thead>
+		<!-- This is the head of a table -->
+		<tr>
+			<th>Name</th>
+			<th>Age</th>
+			<th>Birthdate</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Tim</td>
+			<td>15</td>
+			<td>5/2/91</td>
+		</tr>
+		<tr>
+			<td>Joe</td>
+			<td>12</td>
+			<td>4/7/71</td>
+		</tr>
+		<tr>
+			<td>Sally</td>
+			<td>22</td>
+			<td>4/02/21</td>
+		</tr>
+	</tbody>
+</table>
+
+<!-- emphasis -->
+
+<p>
+<strong>This is bold</strong><br>
+<em>This is italic.</em><br>
+<b>This is also bold text but not emphasized.</b><br>
+<i>This is also italic text but not emphasized.</i><br>
+<u>This is underlined.</u><br>
+<s>This is strikethrough</s><br>
+<small>This is small text. </small><br>
+<sup>This is superscript text</sup>/<sub>This is subscript text.</sub><br>
+<sup>3</sup>/<sub>5</sub> = 0.6<br>
+	<var>x</var> = <sup>3</sup>/<sub>5</sub>
+</p>
+
+<!-- time -->
+
+<p>HTML 2 was published <time datetime="1995-11-24">November 24, 1995</time>.</p>
+
+<!-- quotes -->
+
+<p>Jimmy said, <q>My name is Jimmy.</q> That is what he said.</p>
+
+<!-- blockquotes -->
+
+<blockquote>
+	To be or not to be, that is the question.
+</blockquote>
+
+<!-- citation -->
+<p>I learned of this from the <cite><a href="https://en.wikipedia.org/wiki/To_be,_or_not_to_be">Wikipedia</a></cite> page.</p>
+
+<!-- mark text -->
+<p>This is <mark>marked text</mark>.</p>
+
+<!-- sample output -->
+
+<p>If the computer says, <samp>Critical error your hard drive is toast!</samp>, that is bad.</p>
+
+<!-- definition -->
+
+<p><dfn>HTML</dfn> is hyper text markup language that is used to format text for the web.</p>
+
+<!-- spans -->
+
+<p>
+	This is normal paragraph text.
+	<span style="color: red;">This is red colored text.</span>
+	<span style="text-transform: uppercase;">This is uppercase text.</span>
+</p>
+
+<!-- code -->
+
+<code>&lsaquo;html&rsaquo;Insert html code here.&lsaquo;/html&rsaquo;</code>
+<br>
+
+<!-- links -->
+
+<a href="https://google.com">Link to Google</a>
+<a href="https://google.com" target="_blank">Link to Google, opens in a new tab.</a>
+
+<!-- line breaks in a paragraph -->
+
+<p>This is one line.
+This is still on the same line.</p>
+
+<p>This is on one line.<br>This is on the next line.</p>
+
+<!-- horizontal rule -->
+
+<p>Here is a paragraph.</p>
+
+<hr>
+
+<p>Here is another paragraph - note there is a line in between each.</p>
+
+<!-- non-breaking space -->
+
+<p>html recognizes      only         one         space.</p>
+
+<p>To get more &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; spaces you must use non-breaking spaces.</p>
+
+<!-- images -->
+
+<img src="./images/cat.jpg" alt="a sleeping cat.">
+
+<!-- modifying size --><br>
+
+<img src="./images/cat.jpg" alt="a sleeping cat." width="200" height="400">
+
+<!-- maintain aspect ratio --> <br>
+
+<img src="./images/cat.jpg" alt="a sleeping cat." width="200">
+
+<br><br>
+<!-- audio elements -->
+
+<audio controls src="./sounds/laser.mp3"></audio>
+
+<!-- inline frame elements -->
+<br><br>
+
+<iframe src="https://unkertdevelopment.com" width="800" height="600"></iframe>
+
+<!-- embedding youtube -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g1fDmeSEZcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!-- abbreviations -->
+
+<p><abbr title="hyper text markup language">html</abbr> stands for hyper text markup language and is used on websites across the world.</p>
+
+<!-- semantic html 5 elements (in alphabetical order) -->
+
+<!-- article tags -->
+
+<article>
+	an article goes in here.
+</article>
+
+<!-- aside -->
+
+<aside>
+	This is not the main content. This is often used for the sidebar.
+</aside>
+
+<!-- footer -->
+
+<footer>
+	This is the footer of the document.
+</footer>
+
+<!-- header -->
+
+<header>
+	This is the header of the document.
+</header>
+
+<!-- main -->
+
+<main>
+	This is where the main content goes. This let's the google bots know your main content is here.
+</main>
+
+<!-- section -->
+
+<section>
+	This is a section of text.
+</section>
+
+<!-- Forms -->
+
+<form>
+	<label for="fullname">Full Name: </label>
+	<input id="fullname" name="fullname" type="text"><br>
+	<label for="email">Email: </label>
+	<input id="email" name="email" type="email"><br>
+	<label for="message">Message: </label>
+	<textarea id="message" name="message" cols="30" rows="10"></textarea><br>
+	<input type="submit" id="submit" name="submit">
+</form>
+
+<!-- nav menu, typically in the header -->
+
+<header>
+	<nav>
+		<ul>
+			<li><a href="https://google.com">Google</a></li>
+			<li><a href="https://bing.com">Bing</a></li>
+			<li><a href="https://yahoo.com">Yahoo</a></li>
+			<li><a href="https://facebook.com">Facebook</a></li>
+		</ul>
+	</nav>
+</header>
+
+<!-- menu (experimental) -->
+
+<menu>
+	<ul>
+		<li><a href="https://google.com">Google</a></li>
+		<li><a href="https://bing.com">Bing</a></li>
+		<li><a href="https://yahoo.com">Yahoo</a></li>
+		<li><a href="https://facebook.com">Facebook</a></li>
+	</ul>
+</menu>
+
+<!-- pre-formatted text -->
+
+<pre>
+
+
+ /$$$$$$$$ /$$              
+|__  $$__/|__/              
+   | $$    /$$ /$$$$$$/$$$$ 
+   | $$   | $$| $$_  $$_  $$
+   | $$   | $$| $$ \ $$ \ $$
+   | $$   | $$| $$ | $$ | $$
+   | $$   | $$| $$ | $$ | $$
+   |__/   |__/|__/ |__/ |__/
+                            
+</pre>
+
+<!-- in summary -->
+
+<details>
+	<summary>In summary, this was a crash course in html in 2021 (html 5). For additioanl resources please visit <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/" target="_blank">Mozilla.org</a>.
+	</summary>
+</details>
+
+<!-- additional stuff -->
+
+<p>&copy; - copyright symbol</p>
+
+<p>&radic;<span style="text-decoration: overline">2</span> - the square root of two</p>
+
+<p>&#8731;<span style="text-decoration: overline">27</span> = 3</p>
+
+<p>&#8732;<span style="text-decoration: overline">16</span> = 2</p>
+
+<p>&infin;</p>
+
+<p>&rarr; - right arrow, &larr; - left arrow</p>
+
+<p>Additional symbols can be found at <a href="https://www.toptal.com/designers/htmlarrows/" target="_blank">Toptal.com</a>.</p>
+
+<p><code style="background: #000; color: #fff; padding: 10px;">&lt;html&gt;<span style="color: pink">html code</span>&lt;/html&gt;</code></p>
+
+<footer>
+	<p>Copyright &copy; 2021 Timothy Unkert. All rights reserved.</p>
+</footer>
